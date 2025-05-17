@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "api/tax.py"
     }
-  ]
+  ],
+  "env": {
+    "FLASK_APP": "api/tax.py"
+  }
 }
