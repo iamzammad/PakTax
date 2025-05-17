@@ -1,13 +1,15 @@
 {
-  "functions": {
-    "api/tax.py": {
-      "runtime": "python3.9"
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/tax.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/api/tax.py"
+      "src": "/(.*)",
+      "dest": "api/tax.py"
     }
   ]
 }
