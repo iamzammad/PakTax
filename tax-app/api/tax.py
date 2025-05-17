@@ -42,4 +42,5 @@ def calculate():
 
     return render_template("form.html", result=result)
 
-app = app
+if __name__ == "__main__":
+    app.run(debug=True)
