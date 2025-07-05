@@ -6,15 +6,15 @@ def calculate_tax(annual_income):
     if annual_income <= 600000:
         return 0
     elif annual_income <= 1200000:
-        return (annual_income - 600000) * 0.05
+        return (annual_income - 600000) * 0.01
     elif annual_income <= 2200000:
-        return 30000 + (annual_income - 1200000) * 0.15
+        return 6000 + (annual_income - 1200000) * 0.11
     elif annual_income <= 3200000:
-        return 180000 + (annual_income - 2200000) * 0.25
+        return 116000 + (annual_income - 2200000) * 0.23
     elif annual_income <= 4100000:
-        return 430000 + (annual_income - 3200000) * 0.30
+        return 346000 + (annual_income - 3200000) * 0.30
     else:
-        return 700000 + (annual_income - 4100000) * 0.35
+        return 616000 + (annual_income - 4100000) * 0.35
 
 @app.route("/", methods=["GET"])
 def home():
