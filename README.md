@@ -31,12 +31,3 @@ Features:
 | Above 12,000,000            | 2,850,000 + 35% of amount above 12,000,000 |
 
 *(These slabs are updated as per the official FBR notification for the relevant fiscal year.)*
-
----
-
-## 🚀 Deployment
-The project is deployed on **Vercel**.  
-
-Visit here 👉 [paktax.vercel.app](https://paktax.vercel.app)
-
----
